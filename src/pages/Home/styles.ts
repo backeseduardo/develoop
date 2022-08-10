@@ -11,7 +11,6 @@ export const Container = styled.div`
 		display: flex;
 		flex-direction: column;
 		align-items: end;
-		font-weight: 400;
 
 		span {
 			font-size: 5rem;

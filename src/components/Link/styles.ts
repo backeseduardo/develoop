@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 interface ContainerProps {
-	highlight?: boolean;
+	highlight: boolean;
 }
 
 export const Container = styled(Link)<ContainerProps>`
