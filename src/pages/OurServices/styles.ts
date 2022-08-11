@@ -38,11 +38,8 @@ export const ServiceCard = styled.div`
 
 			display: flex;
 
-			&:first-child {
-				margin-top: 0;
-			}
-
-			> span:first-child {
+			&::before {
+				content: "-";
 				margin-right: 0.5rem;
 			}
 		}

@@ -14,13 +14,20 @@ export function Link(props: LinkProps) {
   function handleClick(e: React.MouseEvent): void {
     e.preventDefault();
 
-    document.querySelector(`#${to}`)?.scrollIntoView({
-      behavior: "smooth",
-    });
+    console.log(e.target);
+
+    //document.querySelector(`#${to}`)?.scrollIntoView({
+    //  behavior: "smooth",
+    //});
   }
 
   return (
-    <Container variant={variant} className={className} onClick={handleClick}>
+    <Container
+      href={`#${to}`}
+      variant={variant}
+      className={className}
+      onClick={handleClick}
+    >
       {children}
     </Container>
   );

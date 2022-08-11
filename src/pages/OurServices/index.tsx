@@ -18,22 +18,10 @@ export function OurServicesPage() {
             <h2>Custom Software Development</h2>
 
             <ul>
-              <li>
-                <span>-</span>
-                <span>Custom software solutions</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Web and mobile applications development</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Domain expertise</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Large-scaled tech stack</span>
-              </li>
+              <li>Custom software solutions</li>
+              <li>Web and mobile applications development</li>
+              <li>Domain expertise</li>
+              <li>Large-scaled tech stack</li>
             </ul>
 
             <img src={codeSlashLineImg} alt="" />
@@ -43,18 +31,9 @@ export function OurServicesPage() {
             <h2>Team Augmentation</h2>
 
             <ul>
-              <li>
-                <span>-</span>
-                <span>Team members with the right skills and experience</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Temporary shortage or long-time engagement</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Team ramp-up</span>
-              </li>
+              <li>Team members with the right skills and experience</li>
+              <li>Temporary shortage or long-time engagement</li>
+              <li>Team ramp-up</li>
             </ul>
 
             <img src={teamLineImg} alt="" />
@@ -66,22 +45,10 @@ export function OurServicesPage() {
             <h2>BI & Big Data Management</h2>
 
             <ul>
-              <li>
-                <span>-</span>
-                <span>Big Data Analytics</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Data Warehouses for enhanced ETL operations</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Real-time reports of your business operations</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Data management costs optimization</span>
-              </li>
+              <li>Big Data Analytics</li>
+              <li>Data Warehouses for enhanced ETL operations</li>
+              <li>Real-time reports of your business operations</li>
+              <li>Data management costs optimization</li>
             </ul>
 
             <img src={databaseLineImg} alt="" />
@@ -91,22 +58,10 @@ export function OurServicesPage() {
             <h2>SaaS Development</h2>
 
             <ul>
-              <li>
-                <span>-</span>
-                <span>Building a Saas product from scratch</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Tweaking an existing SaaS solution</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Successful app transormation into SaaS</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Expanding a localized SaaS app reach in new market</span>
-              </li>
+              <li>Building a Saas product from scratch</li>
+              <li>Tweaking an existing SaaS solution</li>
+              <li>Successful app transormation into SaaS</li>
+              <li>Expanding a localized SaaS app reach in new market</li>
             </ul>
 
             <img src={cloudLineImg} alt="" />
@@ -118,22 +73,10 @@ export function OurServicesPage() {
             <h2>Software Re-engineering</h2>
 
             <ul>
-              <li>
-                <span>-</span>
-                <span>Legacy Software modernization</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Third-party data integration</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Functionality Expanding</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Infrastructure Setup</span>
-              </li>
+              <li>Legacy Software modernization</li>
+              <li>Third-party data integration</li>
+              <li>Functionality Expanding</li>
+              <li>Infrastructure Setup</li>
             </ul>
 
             <img src={refreshLineImg} alt="" />
@@ -143,24 +86,10 @@ export function OurServicesPage() {
             <h2>IT Consulting and Digital advisory</h2>
 
             <ul>
-              <li>
-                <span>-</span>
-                <span>Select the right technology for your business goal</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Validate your product idea before investing in it</span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>
-                  Attract investment with an elaborate product prototype
-                </span>
-              </li>
-              <li>
-                <span>-</span>
-                <span>Add scalability and flexibility to your business</span>
-              </li>
+              <li>Select the right technology for your business goal</li>
+              <li>Validate your product idea before investing in it</li>
+              <li>Attract investment with an elaborate product prototype</li>
+              <li>Add scalability and flexibility to your business</li>
             </ul>
 
             <img src={terminalLineImg} alt="" />
