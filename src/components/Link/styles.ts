@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { darken } from "polished";
 
@@ -42,8 +41,9 @@ function getBackgroundHover(props: ContainerProps): string {
 	}
 }
 
-export const Container = styled(Link)<ContainerProps>`
+export const Container = styled.a<ContainerProps>`
 	color: ${getColor};
+	cursor: pointer;
 	background: ${getBackground};
 	border-radius: 0.5rem;
 	padding: 1.125rem 1.5rem;

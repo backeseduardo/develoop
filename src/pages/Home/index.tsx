@@ -1,4 +1,4 @@
-import { Container, ContainerLink, Reviews } from "./styles";
+import { Container, ContainerLink, FooterImage, Reviews } from "./styles";
 import { Link } from "../../components/Link";
 import headlineArtImg from "../../assets/headline-art.svg";
 import upReviewsImg from "../../assets/up-reviews.svg";
@@ -39,7 +39,7 @@ export function HomePage() {
         </Reviews>
       </div>
 
-      <img src={peepsImg} alt="People" className="peeps" />
+      <FooterImage src={peepsImg} alt="People" />
     </Container>
   );
 }

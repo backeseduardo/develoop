@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import React, { ReactNode } from "react";
 import { Container } from "./styles";
 
 interface LinkProps {
@@ -11,8 +11,16 @@ interface LinkProps {
 export function Link(props: LinkProps) {
   const { children, to, variant, className } = props;
 
+  function handleClick(e: React.MouseEvent): void {
+    e.preventDefault();
+
+    document.querySelector(`#${to}`)?.scrollIntoView({
+      behavior: "smooth",
+    });
+  }
+
   return (
-    <Container to={to} variant={variant} className={className}>
+    <Container variant={variant} className={className} onClick={handleClick}>
       {children}
     </Container>
   );

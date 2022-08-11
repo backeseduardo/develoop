@@ -1,4 +1,3 @@
-import { Route, Routes } from "react-router-dom";
 import { Content } from "./components/Content";
 import { Header } from "./components/Header";
 import { CaseStudiesPage } from "./pages/CaseStudies";
@@ -12,14 +11,21 @@ function App() {
     <>
       <Header />
       <Content>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="case-studies" element={<CaseStudiesPage />} />
-          <Route path="our-services" element={<OurServicesPage />} />
-          <Route path="contact" element={<ContactPage />} />
-          <Route path="comming-soon" element={<CommingSoonPage />} />
-          <Route path="*" element={<CommingSoonPage />} />
-        </Routes>
+        <div id="home">
+          <HomePage />
+        </div>
+        <div id="case-studies">
+          <CaseStudiesPage />
+        </div>
+        <div id="our-services">
+          <OurServicesPage />
+        </div>
+        <div id="blog">
+          <CommingSoonPage />
+        </div>
+        <div id="contact">
+          <ContactPage />
+        </div>
       </Content>
     </>
   );

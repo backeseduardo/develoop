@@ -10,4 +10,3 @@ https://www.figma.com/community/file/1136373910161982978
 - Typescript
 - styled-components
 - polished
-- react-router

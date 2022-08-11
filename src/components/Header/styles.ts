@@ -1,24 +1,25 @@
 import styled from "styled-components";
+import { Link } from "../Link";
 
 export const Container = styled.header`
 	display: flex;
 	align-items: center;
+`;
 
-	.logo {
-		width: 100%;
-		max-width: 420px;
-		border: 1px solid #1f1f1f;
-		border-radius: 0.5rem;
-		padding: 0.875rem 1.5rem;
-		text-decoration: none;
+export const Logo = styled(Link)`
+	width: 100%;
+	max-width: 420px;
+	border: 1px solid #1f1f1f;
+	border-radius: 0.5rem;
+	padding: 0.875rem 1.5rem;
+	text-decoration: none;
 
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 
-		span {
-			color: #999999;
-		}
+	span {
+		color: #999999;
 	}
 `;
 

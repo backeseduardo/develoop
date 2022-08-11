@@ -12,7 +12,9 @@ export function CommingSoonPage() {
 
       <h1>This page is on way to release</h1>
 
-      <Link to="/">GO BACK</Link>
+      <Link to="home" variant="highlight">
+        GO BACK
+      </Link>
     </Container>
   );
 }

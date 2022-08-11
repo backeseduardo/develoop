@@ -28,12 +28,6 @@ export const Container = styled.div`
 		font-weight: 400;
 		margin-top: 2.5rem;
 	}
-
-	.peeps {
-		width: 100%;
-		position: absolute;
-		bottom: 0;
-	}
 `;
 
 export const ContainerLink = styled.div`
@@ -54,5 +48,10 @@ export const Reviews = styled.div`
 
 	img:first-child {
 		margin-right: 1.5rem;
+	}
+`;
+
+export const FooterImage = styled.img`
+	width: 100%;
 	}
 `;

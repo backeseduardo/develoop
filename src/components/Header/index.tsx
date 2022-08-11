@@ -1,4 +1,4 @@
-import { Container, Nav, Search } from "./styles";
+import { Container, Logo, Nav, Search } from "./styles";
 import logoImg from "../../assets/logo.svg";
 import menuImg from "../../assets/menu.svg";
 import { Link } from "../Link";
@@ -6,11 +6,11 @@ import { Link } from "../Link";
 export function Header() {
   return (
     <Container>
-      <Link to="/" className="logo">
+      <Logo to="home" className="logo">
         <img src={logoImg} alt="Logo" />
 
         <span>SOFTWARE DEVELOPMENT</span>
-      </Link>
+      </Logo>
 
       <Nav>
         <ul>
