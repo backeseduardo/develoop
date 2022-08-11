@@ -4,15 +4,15 @@ import { Container } from "./styles";
 interface LinkProps {
   children: ReactNode;
   to: string;
-  highlight?: boolean;
+  variant?: "highlight" | "button";
   className?: string;
 }
 
 export function Link(props: LinkProps) {
-  const { children, to, highlight, className } = props;
+  const { children, to, variant, className } = props;
 
   return (
-    <Container to={to} highlight={highlight ?? false} className={className}>
+    <Container to={to} variant={variant} className={className}>
       {children}
     </Container>
   );

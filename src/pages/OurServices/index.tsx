@@ -5,11 +5,12 @@ import refreshLineImg from "../../assets/refresh-line.svg";
 import teamLineImg from "../../assets/team-line.svg";
 import cloudLineImg from "../../assets/cloud-line.svg";
 import terminalLineImg from "../../assets/terminal-window-line.svg";
+import { Heading1 } from "../../styles/heading";
 
 export function OurServicesPage() {
   return (
     <Container>
-      <h1>Our Services</h1>
+      <Heading1>Our Services</Heading1>
 
       <section>
         <div className="wrapper">

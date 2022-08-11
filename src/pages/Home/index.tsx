@@ -24,11 +24,13 @@ export function HomePage() {
         </h2>
 
         <ContainerLink>
-          <Link to="/" highlight={true}>
+          <Link to="/" variant="highlight">
             LET'S DISCUSS YOUR PROJECT
           </Link>
 
-          <Link to="/">CASE STUDIES</Link>
+          <Link to="/" variant="button">
+            CASE STUDIES
+          </Link>
         </ContainerLink>
 
         <Reviews>

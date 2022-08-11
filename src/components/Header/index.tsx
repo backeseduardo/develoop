@@ -1,7 +1,7 @@
 import { Container, Nav, Search } from "./styles";
 import logoImg from "../../assets/logo.svg";
 import menuImg from "../../assets/menu.svg";
-import { Link } from "react-router-dom";
+import { Link } from "../Link";
 
 export function Header() {
   return (
@@ -15,7 +15,7 @@ export function Header() {
       <Nav>
         <ul>
           <li>
-            <Link to="comming-soon">OUR CASE STUDIES</Link>
+            <Link to="case-studies">OUR CASE STUDIES</Link>
           </li>
           <li>
             <Link to="our-services">SERVICES</Link>
@@ -24,7 +24,7 @@ export function Header() {
             <Link to="blog">BLOG</Link>
           </li>
           <li>
-            <Link to="contact" className="highlight">
+            <Link to="contact" variant="highlight">
               CONTACT US
             </Link>
           </li>

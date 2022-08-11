@@ -3,13 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
 	padding: 4rem 1.5rem 1.5rem 1.5rem;
 
-	h1 {
-		font-weight: 600;
-		font-size: 5rem;
-		line-height: 5.75rem;
-		letter-spacing: 0.04rem;
-	}
-
 	section {
 		display: flex;
 		gap: 0.5rem;

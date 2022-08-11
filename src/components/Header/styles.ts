@@ -33,33 +33,6 @@ export const Nav = styled.nav`
 
 		li {
 			margin-left: 0.5rem;
-
-			a {
-				display: inline-block;
-				padding: 1.125rem 1.5rem;
-				border-radius: 0.5rem;
-				white-space: nowrap;
-				text-decoration: none;
-				font-weight: 600;
-				color: var(--white);
-				font-size: 0.75rem;
-				line-height: 1.25rem;
-
-				transition: background 0.2s;
-
-				&.highlight {
-					background: linear-gradient(to right, #e2ff24, #24fe41);
-					color: #141414;
-
-					&:hover {
-						background: linear-gradient(to right, #24fe41, #e2ff24);
-					}
-				}
-
-				&:hover {
-					background: #141414;
-				}
-			}
 		}
 	}
 `;
